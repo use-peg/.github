@@ -149,6 +149,25 @@ The **PegPad Test / PPTEST / NVDA** lifecycle produced real transaction receipts
 
 These receipts document completed historical operations. They do not predict future trading volume, fee income or execution conditions.
 
+## Developer toolkit
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?style=flat-square)](https://github.com/use-peg/peg-sdk/blob/main/index.ts)
+[![Python](https://img.shields.io/badge/Python-RPC%20example-3776ab?style=flat-square)](https://github.com/use-peg/peg-sdk/blob/main/read_position.py)
+[![SDK tests](https://img.shields.io/badge/SDK%20tests-8%20passing-4cba78?style=flat-square)](https://github.com/use-peg/peg-sdk/blob/main/sdk.test.ts)
+
+**Build with public state, exact amounts and explicit contract versions.**
+
+[**peg-sdk ↗**](https://github.com/use-peg/peg-sdk) provides a read-only TypeScript client for PEG and funded staking v2 on Robinhood Chain. Read wallet balances, legacy positions, current stake, earned rewards and the reward reserve in one typed snapshot. The client checks network identity, block freshness, canonical state and the expected staking and reserve runtimes.
+
+| Integration | Included |
+| :--- | :--- |
+| **TypeScript client** | Typed staking snapshots, bigint token arithmetic and JSON serialization. |
+| **Python example** | Standard-library RPC inspection with exact decimal output. |
+| **Offline tests** | Eight checks for precision, input bounds, network, freshness and runtime validation. |
+| **Deployment manifest** | Public PEG, staking and reserve addresses with version-specific runtime hashes. |
+
+The source package includes installation instructions and runnable examples. It uses no signer and submits no transactions. Reward projections remain estimates; a reserve snapshot does not guarantee future funding. Runtime attestation is provided by the TypeScript client, not the Python example.
+
 ## Open Solidity, explicit versions
 
 The public [**peg-contracts**](https://github.com/use-peg/peg-contracts) repository contains five selected source contracts, a pinned build and the staking custody test suite.
@@ -215,3 +234,4 @@ Source publication, successful compilation and historical transaction proofs are
 <sub>Product and source snapshot · September 2026</sub>
 
 </div>
+
