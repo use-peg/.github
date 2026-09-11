@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+<title id="title">Peg — Real-world assets. Onchain momentum.</title><desc id="desc">Peg liquidity, community pools, staking and PegPad on Robinhood Chain, framed by a violet orbital diagram.</desc>
+<defs>
+ <radialGradient id="glow"><stop stop-color="#74509d" stop-opacity=".44"/><stop offset="1" stop-color="#101015" stop-opacity="0"/></radialGradient>
+ <linearGradient id="ink" x2="1" y2="1"><stop stop-color="#fcfaff"/><stop offset="1" stop-color="#bca3e8"/></linearGradient>
+ <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+</defs>
+<rect width="1280" height="440" rx="24" fill="#101015"/>
+<rect width="1280" height="440" rx="24" fill="url(#grid)"/>
+<ellipse cx="995" cy="225" rx="370" ry="320" fill="url(#glow)"/>
+<g font-family="Inter,Arial,sans-serif">
+ <text x="64" y="67" font-size="22" font-weight="600" fill="#f3eefc">Peg</text>
+ <circle cx="907" cy="59" r="4" fill="#bca3e8"/><text x="925" y="65" font-size="14" letter-spacing="1.6" fill="#c1b6d0">ROBINHOOD CHAIN / 4663</text>
+ <text x="64" y="174" font-size="59" font-weight="600" letter-spacing="-2.5" fill="url(#ink)">Real-world assets.</text>
+ <text x="64" y="245" font-size="59" font-weight="600" letter-spacing="-2.5" fill="url(#ink)">Onchain momentum.</text>
+ <text x="67" y="291" font-size="18" fill="#aca7b6">Liquidity, communities, and the next generation of token launches.</text>
+ <path d="M65 341H711" stroke="#ffffff" stroke-opacity=".12"/>
+ <text x="66" y="380" font-size="12" letter-spacing="2" fill="#bca3e8">POOLS</text><text x="177" y="380" font-size="12" letter-spacing="2" fill="#bca3e8">COMMUNITY</text><text x="342" y="380" font-size="12" letter-spacing="2" fill="#bca3e8">STAKING</text><text x="483" y="380" font-size="12" letter-spacing="2" fill="#bca3e8">PEGPAD</text>
+</g>
+<g transform="translate(992 236)">
+ <circle r="128" fill="none" stroke="#bca3e8" stroke-opacity=".22"/><circle r="164" fill="none" stroke="#bca3e8" stroke-opacity=".09"/>
+ <ellipse rx="199" ry="74" transform="rotate(-34)" fill="none" stroke="#bca3e8" stroke-opacity=".35"/>
+ <circle cx="119" cy="-95" r="8" fill="#d8c5fb"/><circle cx="-126" cy="92" r="4" fill="#9b78d4"/>
+ <g transform="translate(-79 -117) scale(.7)" fill="url(#ink)"><path fill-rule="evenodd" d="M42 0 A172 102 0 0 1 42 204 Z M42 58 A114 44 0 0 1 42 146 Z"/><rect x="13" width="58" height="340" rx="4"/></g>
+</g>
+</svg>
