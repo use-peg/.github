@@ -21,12 +21,14 @@ Peg connects stock-token markets, community liquidity and token launches on **Ro
 
 ## Open the Solidity
 
-[**peg-contracts ↗**](https://github.com/use-peg/peg-contracts) contains three actual Peg primitives, pinned builds and **30 staking tests**.
+[**peg-contracts ↗**](https://github.com/use-peg/peg-contracts) contains five actual Peg primitives, pinned builds and **30 staking tests**.
 
 | Contract | Role |
 | :--- | :--- |
 | [PegAsset.sol](https://github.com/use-peg/peg-contracts/blob/main/PegAsset.sol) | Fixed-unit stock-token custody wrappers. |
 | [PegPool.sol](https://github.com/use-peg/peg-contracts/blob/main/PegPool.sol) | Constant-product pools, ERC-20 LP shares, 30 bps retained swap fees. |
+| [PegNativeEntry.sol](https://github.com/use-peg/peg-contracts/blob/main/PegNativeEntry.sol) | Atomic ETH / USDG entry into Peg liquidity. |
+| [PegPadFeeRouterV2.sol](https://github.com/use-peg/peg-contracts/blob/main/PegPadFeeRouterV2.sol) | Pons creator-fee collection and protected 50 / 25 / 25 routing. |
 | [PegStakingVault.sol](https://github.com/use-peg/peg-contracts/blob/main/PegStakingVault.sol) | Immutable token and chain bindings; caller-owned principal. |
 
 **Principal out. Directly to its owner.** This is the actual withdrawal entry point in our staking vault:
