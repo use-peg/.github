@@ -18,6 +18,16 @@ For liquidity providers, Peg offers market and position controls. For communitie
 
 **Network:** Robinhood Chain · **Chain ID:** `4663` · **Application:** [usepeg.trade](https://usepeg.trade)
 
+### PEG token
+
+**Contract address · Robinhood Chain**
+
+```text
+0x7f362d5ef8b02cedf2b5c5f76b9d7aaa667085c8
+```
+
+[**View PEG on the explorer ↗**](https://robinhoodchain.blockscout.com/address/0x7f362d5ef8b02cedf2b5c5f76b9d7aaa667085c8)
+
 ## Explore the ecosystem
 
 | Product | What it enables | Start here |
