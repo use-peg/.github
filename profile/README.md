@@ -1,5 +1,14 @@
 <a href="https://usepeg.trade/app"><img src="https://raw.githubusercontent.com/use-peg/.github/main/assets/peg-cover-v3.png" width="100%" alt="Peg — Tokenized stocks. Community liquidity." /></a>
 
+<p align="center">
+  <a href="https://robinhoodchain.blockscout.com"><img src="https://img.shields.io/badge/chain-Robinhood%20Chain-22c7a9?style=flat-square&amp;labelColor=34363d" alt="Chain: Robinhood Chain" /></a>
+  <a href="https://github.com/use-peg/peg-contracts"><img src="https://img.shields.io/badge/contracts-Solidity%200.8.36-8b7ae6?style=flat-square&amp;labelColor=34363d" alt="Contracts: Solidity 0.8.36" /></a>
+  <a href="https://robinhoodchain.blockscout.com/address/0x7f362d5ef8b02cedf2b5c5f76b9d7aaa667085c8"><img src="https://img.shields.io/badge/token-ERC--20-7763d9?style=flat-square&amp;labelColor=34363d" alt="Token: ERC-20" /></a>
+  <a href="https://github.com/use-peg/peg-contracts/blob/main/staking-vault.test.mjs"><img src="https://img.shields.io/badge/custody%20tests-30%20passing-4cba78?style=flat-square&amp;labelColor=34363d" alt="Staking custody tests: 30 passing" /></a>
+  <a href="https://github.com/use-peg/peg-contracts#scope"><img src="https://img.shields.io/badge/audit-not%20audited-c99a38?style=flat-square&amp;labelColor=34363d" alt="Audit: not audited" /></a>
+  <a href="https://usepeg.trade/app"><img src="https://img.shields.io/badge/status-live-22a88a?style=flat-square&amp;labelColor=34363d" alt="Status: live" /></a>
+</p>
+
 <div align="center">
 
 [**Launch app ↗**](https://usepeg.trade/app) &nbsp; · &nbsp; [**Explore Solidity**](https://github.com/use-peg/peg-contracts) &nbsp; · &nbsp; [**Product docs**](https://usepeg.trade/app?tab=docs&screen=open) &nbsp; · &nbsp; [**X / use_peg**](https://x.com/use_peg)
